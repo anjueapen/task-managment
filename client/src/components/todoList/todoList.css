@@ -1,0 +1,42 @@
+
+.list-container {
+  padding: 0 10px;
+  height:auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  margin-top:30px;
+}
+.list-container .list-row{
+  margin-bottom: 5px;
+  padding: 20px;
+  border: 4px;
+  background: linear-gradient(45deg,rgb(82, 92, 92),rgb(123, 151, 151));
+  background-repeat: no-repeat;justify-content: space-between;
+  align-items: center;
+  color: white;
+  display: flex;
+  width:100%;
+}
+.list-button{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;}
+.list-button button{
+    margin: 0 5px;
+    background: transparent;
+    border: none;
+    filter: invert(1);
+}
+.list-button button:focus {
+  background-color: red;
+}
+.complete-span-1{
+  text-decoration: line-through;
+}
+.complete-span-2{
+  text-decoration: solid;
+}
